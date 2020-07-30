@@ -16,9 +16,7 @@
     "url": "https://github.com/jbachmann/sssnakes/issues"
   },
   "homepage": "https://github.com/jbachmann/sssnakes#readme",
-  "dependencies": {
-    "rss-parser": "^3.9.0"
-  },
+  "dependencies": {},
   "browserslist": [
     "last 3 and_chr versions",
     "last 3 chrome versions",
