@@ -4,7 +4,8 @@ on:
     branches:
       - master
   schedule:
-    -cron: 0 */6 * * *
+    -cron: "0 */6 * * *"
+
 jobs:
   run:
     name: Run Node Code
