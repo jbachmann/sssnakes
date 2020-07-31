@@ -2,7 +2,8 @@ import fs from "fs";
 import Parser from "rss-parser";
 
 const template = (location) =>
-  `<html><head><script>window.location='${location}'</script></head><body></body></html>`;
+  `<html><head><meta http-equiv="REFRESH" content="0;url=${location}"/></head><body></body></html>`;
+// `<html><head><script>window.location='${location}'</script></head><body></body></html>`;
 
 const FEED_URL =
   "https://us8.campaign-archive.com/feed?u=27254aa398528ab9c6d2ae7df&id=ce7a5d8e0f";
