@@ -30,7 +30,7 @@ jobs:
         with:
           author_name: Jordan Bachmann
           author_email: jordan.bachmann@gmail.com
-          message: "Updated latest.html"
-          add: "latest.html"
+          message: "Updated index.html"
+          add: "index.html"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
