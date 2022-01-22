@@ -23,7 +23,7 @@
   "homepage": "https://github.com/jbachmann/sssnakes#readme",
   "dependencies": {
     "jsdom": "16.5.2",
-    "node-fetch": "2.6.1",
+    "node-fetch": "3.1.1",
     "npm": "6.14.11",
     "rss-parser": "3.9.0"
   }
